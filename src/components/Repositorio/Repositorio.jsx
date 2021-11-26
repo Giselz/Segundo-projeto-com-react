@@ -32,7 +32,7 @@ const Repositorio = () => {
                     </div>
                     <div className="list-card">
                         {filtro.map(repo=>
-                            <Card id={repo.id} name={repo.name}/>
+                            <Card href={repo.html_url} id={repo.id} name={repo.name}/>
                         )}
                     </div>
                 </div>
