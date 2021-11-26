@@ -1,0 +1,28 @@
+.footer {
+    background-color: #f6e8fd45;
+    margin-top: auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+.textoFooter{
+    font-size: 20px;
+    color:black;
+}
+.linkGitHubAutora, .linkGitHubReprograma {
+    text-decoration: none;
+}
+
+.autora{
+    font-size: 20px;
+    font-weight: 700;
+    color: #a639f0;
+}
+
+.reprograma{
+    font-size: 20px;
+    font-weight: 600;
+    color: #c180e7;
+}
+
+

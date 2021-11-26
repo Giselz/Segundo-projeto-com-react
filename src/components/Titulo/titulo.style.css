@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Architects+Daughter&family=Caveat&family=Comfortaa&family=Courgette&family=Dancing+Script:wght@600&family=Great+Vibes&family=Kalam:wght@300&family=Lobster&family=Montagu+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Architects+Daughter&family=Caveat&family=Comfortaa&family=Dancing+Script:wght@600&family=Lobster&family=Montagu+Slab&display=swap');
+
+.titulo{
+    font-family: 'Courgette', sans-serif;
+    color:#ff006e90;
+}
+
+.subtitulo{
+    font-family: 'Amatic SC', cursive;
+    color:#c180e7;
+    font-size: 25px;
+    text-shadow: 0.035em 0.078em rgb(92, 91, 91);
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Architects+Daughter&family=Caveat&family=Comfortaa&family=Dancing+Script:wght@600&family=Lobster&family=Montagu+Slab&display=swap');
+
+.input{
+    width: 200px;
+    height: 25px;
+    padding-left: 10px;
+    border-radius: .4rem .4rem .4rem .4rem;
+    border: none;
+    box-shadow: 2px 4px 10px #2f233d70;
+    outline: none;
+    cursor: pointer;
+    align-items: center;
+    margin: 80px ;
+}
+
+.input:hover{
+    border: solid 1px #8338ec;
+    border-right: none;
+}
+
+.card-container{
+    margin: 0 auto;
+    /*width: 600px;*/
+}
+
+.list-card{
+    /*display: grid;
+    gap: 1.5rem;
+    width: 100%;
+    grid-template-columns: 55% 55%;
+    grid-template-areas: "card card card";
+    margin-top: 2rem;*/
+    display: grid;
+    grid-gap: 1.5rem;
+    gap: 2rem;
+    width: 100%;
+    justify-content: space-around;
+    grid-template-columns: 5% 5%;
+    grid-template-areas: "card card card";
+    
+
+}
+
+.content{
+    background:#cac2d699;
+}
+
+.card {
+    height: 150px;
+    width: 300px;
+    background-color: #c180e7;
+    border-radius: 4px;
+    box-shadow: 2px 4px 10px #57657470;
+    color: white;
+    font-size: 23px;
+    padding: 8px;
+    margin-block: 30px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.card:hover{
+    background-color: #ff006e;
+    transition: linear .5s;
+}
+
+
