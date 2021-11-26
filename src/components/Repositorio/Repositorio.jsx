@@ -19,9 +19,10 @@ const Repositorio = () => {
     },[])
 
     useEffect(() =>{
+        const buscaDireta = busca.trim().toLowerCase()
         setFiltro(
             repositories.filter(repo =>{
-                return repo.name.includes(busca)
+                return repo.name.includes(buscaDireta)
             })
         )
     },[repositories, busca])

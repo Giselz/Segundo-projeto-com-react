@@ -21,3 +21,4 @@ Neste segundo projeto react do zero, consumimos dados externos da API do GitHub,
 
 → [Linkedin](https://www.linkedin.com/in/gisele-dos-santos-5b0617203/).
 
+→ [Site do projeto](https://projeto-com-api-do-github.netlify.app/).
